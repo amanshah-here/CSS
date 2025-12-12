@@ -1,0 +1,26 @@
+div{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(255, 146, 79);
+    margin: 10px auto;
+    color: Maroon;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 2px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#one{
+    background-image: url(photo.png);
+    background-size: contain;
+}
+
+#two{background-image: url(photo.png);
+    background-size: cover;
+}
+
+#three{
+    background-image: url(photo.png);
+    background-size: auto;
+}

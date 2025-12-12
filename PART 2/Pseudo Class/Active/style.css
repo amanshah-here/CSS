@@ -1,0 +1,9 @@
+button:active{
+    background-color: hotpink;
+    color:pink;
+}
+
+p:active{
+    font-weight: bold;
+    color:gold;
+}

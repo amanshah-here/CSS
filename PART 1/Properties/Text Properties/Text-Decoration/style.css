@@ -1,0 +1,18 @@
+h1{
+    text-decoration:line-through ;
+}
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-decoration: overline;
+}
+p{
+    text-decoration:solid;
+}
+a{
+    color:coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+}

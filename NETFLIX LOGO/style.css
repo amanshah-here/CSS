@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+.netflix{
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.netflix span {
+    width: 50px;
+    height: 0;
+    background-color: #db0001;
+    position: absolute;
+}
+
+.left {
+    left: 0;
+    bottom: 0;
+    animation: an 1s linear forwards;
+}
+
+.center {
+    left: 0;
+    top: 0;
+    transform: skewX(22deg);
+    transform-origin: top left;
+    z-index: 2;
+    box-shadow: 0 0 50px black;
+    animation: an 1s linear 1s forwards;
+}
+
+.right {
+    bottom: 0;
+    right: 0;
+    animation: an 1s linear 2s forwards;
+}
+
+.netflix::after {
+    content: '';
+    width: 120%;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    left: -10%;
+    bottom: -10px;
+    z-index: 5;
+}
+
+@keyframes an {
+    100%{
+        height: 100%;
+    }
+}

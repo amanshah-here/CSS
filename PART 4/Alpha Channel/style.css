@@ -1,0 +1,12 @@
+h1{
+    color: rgba(245, 0, 231, 0.4);
+}
+h2{
+    background-color: #f34f42a4;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(153, 255, 0, 0.49);
+}

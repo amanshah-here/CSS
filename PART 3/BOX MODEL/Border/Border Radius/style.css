@@ -1,0 +1,5 @@
+div{
+    border:5px solid black;
+    border-radius: 15px;
+    border-top-right-radius: 100px;
+}

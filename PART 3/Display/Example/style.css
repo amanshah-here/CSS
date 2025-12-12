@@ -1,0 +1,11 @@
+span{
+    /* background-color: burlywood; */
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 20px;
+}
+div::selection{
+    background-color: pink;
+}

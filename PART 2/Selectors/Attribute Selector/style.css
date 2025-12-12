@@ -1,0 +1,6 @@
+input[type = "text"]{
+    color: red;
+}
+input[type = "password"]{
+    color:rgb(77, 241, 77);
+}

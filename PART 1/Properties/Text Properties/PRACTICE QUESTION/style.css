@@ -1,0 +1,39 @@
+h1{
+
+    font-size:40px;
+    text-align:center;
+    font-weight:900;
+    text-decoration: underline;
+    text-decoration-color:coral;
+    text-decoration-style: dotted;
+    letter-spacing: 5px;
+    color:coral;
+    background-color:antiquewhite;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    text-align:justify;
+    font-weight: bolder;
+    text-decoration: aqua wavy overline;
+    color:blueviolet;
+    background-color: beige;
+    font-family: fantasy;
+}
+h3{
+    text-align: center;
+    font-weight:400;
+    text-decoration: dashed rgb(242, 113, 135) line-through;
+    color:goldenrod;
+    background-color: bisque;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration:none;
+}
+p{
+    font-size:15px;
+    line-height: 1.3;
+    letter-spacing: 3px;
+    color:hotpink;
+    background-color: pink;
+}

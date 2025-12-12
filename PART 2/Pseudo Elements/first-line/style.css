@@ -1,0 +1,6 @@
+h3::first-line{
+    color:yellow;
+}
+p::first-line{
+    color:hotpink;
+}

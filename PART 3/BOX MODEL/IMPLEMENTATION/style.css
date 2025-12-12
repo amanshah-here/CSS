@@ -1,0 +1,35 @@
+div{
+    height:200px;   /* Height */
+    width:500px;    /* Width */
+    background-color: pink;
+
+    /* * Border
+    border-width: 5px;
+    border-style: solid;
+    border-color:#000; */
+    border:5px solid yellow;
+    border-top:5px dashed blue;
+    border-radius: 15px;
+    padding-top:10px;
+    margin-bottom:25px;
+    margin-left: 20px 50px;
+}
+
+h1{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color:green; */
+    height:40px;
+    width: 500px;
+    border:2px dashed green;
+    border-radius: 10px;
+    margin:0;
+}
+button{
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:10px  25px;
+    background-color:mediumaquamarine;
+    margin-left: 25%;
+}

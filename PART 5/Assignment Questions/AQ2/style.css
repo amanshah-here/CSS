@@ -1,0 +1,20 @@
+#container {
+    height: 50px;
+    width: 900px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+}
+
+#container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    text-align: left;
+    padding: 10px;
+}

@@ -1,0 +1,127 @@
+/* Universal Selector */
+*{
+    font-family:'Courier New';
+}
+
+/* Element Selector */
+h1, h3{
+    color:#B92B27;
+}
+
+/* ID Selector */
+#login{
+    background-color: white;
+    color:#B92B27;
+
+}
+#signup{
+    background-color: #B92B27;
+    color:white;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: greenyellow;
+    color:grey;
+}
+
+/* Descendant Selector */
+.post a{
+    color:paleturquoise;
+    text-decoration: none;
+    background-color:olivedrab;
+}
+nav ul li a{
+    color:hotpink;
+    text-decoration: none;
+}
+
+/* Sibling Combinator */
+p + h3{
+    text-decoration: underline dotted pink;
+}
+.upvote + button{
+    color: honeydew;
+    background-color: crimson;
+}
+
+/* Child Combinator */
+div>input{
+    background-color:pink;
+}
+
+/* Attribute Selector */
+input[type = "text"]{
+    color:green;
+}
+
+input[type="password"]{
+    color:red;
+}
+
+input[type]{
+    background-color:ghostwhite;
+}
+
+/* Psuedo Class */
+
+/* Hover */
+button:hover{
+    color:orangered;
+    background-color: black;
+}
+
+h3:hover{
+    text-decoration: overline paleturquoise;
+}
+
+/* Active */
+button:active{
+    background-color: hotpink;
+    color:black;
+}
+
+p:active{
+    color:green;
+    font-weight: bolder;
+}
+
+/* Checked */
+input[type="radio"]:checked + label{
+    font-weight:bolder;
+    color:red;
+    text-decoration: underline double darkblue;
+}
+
+/* nth-of-type() */
+div:nth-of-type(2n){
+    background-color: wheat;
+}
+div:nth-of-type(2n + 1){
+    background-color: blueviolet;
+}
+
+/* Pseudo Elements */
+
+/* first-letter */
+h1::first-letter{
+    font-size: 60px;
+}
+
+/* first-line */
+main + p::first-line{
+    color:hotpink;
+}
+
+/* Selection */
+p::selection{
+    background-color:bisque;
+}
+h3::selection{
+    background-color: black;
+}
+
+/* * !important */
+h3{
+    background-color: antiquewhite !important;
+}

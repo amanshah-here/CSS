@@ -1,0 +1,40 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;/*flex-start, 
+    flex-end, center, space-between, space-around, space-evenly, baseline*/
+    flex-wrap: wrap;
+    /* align-items: center; */
+    align-content: flex-start; /*flex-start, 
+    flex-end, center, space-between, space-around, space-evenly, baseline*/
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 50px;
+    width: 100px;
+    color: ghostwhite;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#orange{
+    align-self: flex-end;
+    /* flex-basis: 100px; */
+    flex-grow: 1;
+}
+
+#blue{
+    /* flex-basis: 500px; */
+    flex-grow: 3;
+    min-width: 200px;
+    max-width: 400px;
+}

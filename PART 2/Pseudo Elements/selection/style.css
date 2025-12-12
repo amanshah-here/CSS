@@ -1,0 +1,6 @@
+p::selection{
+    background-color: pink;
+}
+h3::selection{
+    background-color: aquamarine;
+}

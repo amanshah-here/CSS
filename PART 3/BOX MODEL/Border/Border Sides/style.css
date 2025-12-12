@@ -1,0 +1,18 @@
+h1{
+    border-left: 2px dashed red;
+    border-right: 2px dotted blue;
+    border-top: 2px solid chartreuse;
+    border-bottom: 2px solid salmon;
+}
+
+div{
+    border-width: 2px;
+    border-style: dashed;
+    border-color:chartreuse;
+}
+button{
+    border-left: 2px dashed red;
+    border-right: 2px dotted blue;
+    border-top: 2px solid chartreuse;
+    border-bottom: 2px solid salmon;
+}

@@ -1,0 +1,22 @@
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: #ffaaffff;
+    opacity: 1;
+    display:inline-block;
+}
+
+#div2{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: #ffa511;
+    opacity: 1;
+    display:inline-block;
+}
+
+#div1:hover , #div2:hover{
+    border-radius: 50%;
+    opacity:0.8;
+    background-color: coral;
+}

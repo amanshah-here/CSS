@@ -1,0 +1,7 @@
+button:hover{
+    color:white;
+    background-color: black;
+}
+h3:hover{
+    text-decoration: underline dashed black;
+}
